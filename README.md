@@ -66,6 +66,8 @@ Specifically:
 
 ### Other Dependencies
 
+* git
+* git-lfs
 * @microelly2's fork of PyFlow: https://github.com/microelly2/PyFlow  
   * The original PyFlow repo is at https://github.com/wonderworks-software/PyFlow
 * [Qt.py](https://github.com/mottosso/Qt.py) a 'minimal Python 2 & 3 shim around all Qt bindings - PySide, PySide2, PyQt4 and PyQt5'
@@ -89,8 +91,10 @@ git clone https://github.com/microelly2/NodeEditor
 ## Usage
 
 **Important Note**: Addon is still heavily developed and is shown here as a proof-of-concept for the time being.  
-1. Start FreeCAD
+1. Start FreeCAD 
 2. Select PyFlow workbench from the workbench dropdown list
+3. Set the package location
+[additional package locations](https://forum.freecadweb.org/download/file.php?id=101187)
 3. In the FreeCAD python console test the installation of the required modules
   ```python
 import Qt
