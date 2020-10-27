@@ -94,7 +94,11 @@ git clone https://github.com/microelly2/NodeEditor
 1. Start FreeCAD 
 2. Select PyFlow workbench from the workbench dropdown list
 3. Set the package location
-[additional package locations](https://forum.freecadweb.org/download/file.php?id=101187)
+  in the "tools" menu (note the lower case spelling)
+  "display Preferences window"
+  Set "Additional package locations" to "/home/$you/.FreeCAD/Mod/NodeEditor/PyFlowPackages"
+  (where $you is for your homedir, cf: `cd ~; pwd`)
+![additional package locations](https://forum.freecadweb.org/download/file.php?id=101187)
 3. In the FreeCAD python console test the installation of the required modules
   ```python
 import Qt
