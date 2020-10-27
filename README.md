@@ -99,7 +99,7 @@ git clone https://github.com/microelly2/NodeEditor
   Set "Additional package locations" to "/home/$you/.FreeCAD/Mod/NodeEditor/PyFlowPackages"
   (where $you is for your homedir, cf: `cd ~; pwd`)
 ![additional package locations](https://forum.freecadweb.org/download/file.php?id=101187)
-3. In the FreeCAD python console test the installation of the required modules
+4. In the FreeCAD python console test the installation of the required modules
   ```python
 import Qt
 >>> Qt
@@ -117,9 +117,9 @@ print(numpy)
 #<module 'numpy' from '/tmp/.mount_FreeCAjzH7MR/usr/lib/python3.7/site-packages/numpy/__init__.py'>
 import nodeeditor
 ```
-4. Open the PyFlow Workbench
-5. run the Script "create all Nodes for Test"  from Menu tests
-6. run the Script "run Test for All Nodes"  from Menu tests
+5. Open the PyFlow Workbench
+6. run the Script "create all Nodes for Test"  from Menu tests
+7. run the Script "run Test for All Nodes"  from Menu tests
 
 
 ## Documentation
